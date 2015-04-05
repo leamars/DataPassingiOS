@@ -46,23 +46,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
-    CookieList *cookieListController = [segue destinationViewController];
-    cookieListController.dayNum = days;
-}
-
-- (IBAction)unwindFromModalViewController:(UIStoryboardSegue *)segue {
-    
-    if ([segue.sourceViewController isKindOfClass:[CookieList class]]) {
-        CookieList *cookieViewConroller = segue.sourceViewController;
-
-        self.todaysCookies = cookieViewConroller.selectedCookies;
-        self.first.text = ((Cookie *)self.todaysCookies[0]).name;
-        self.second.text = ((Cookie *)self.todaysCookies[1]).name;
-        self.third.text = ((Cookie *)self.todaysCookies[2]).name;
-    }
-}
-
-
 @end

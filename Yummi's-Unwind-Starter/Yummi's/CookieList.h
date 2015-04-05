@@ -19,6 +19,5 @@
 @property (nonatomic, strong) NSMutableArray *selectedCookies;
 
 - (IBAction)saveSelection:(id)sender;
-- (IBAction)clearSelection:(id)sender;
 
 @end

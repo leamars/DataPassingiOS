@@ -86,16 +86,6 @@
                                     <action selector="saveSelection:" destination="cXc-fr-Sgx" eventType="touchUpInside" id="TPt-Vk-ht7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0W-Uf-wJf">
-                                <rect key="frame" x="110" y="623" width="155" height="30"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="clearSelection:" destination="cXc-fr-Sgx" eventType="touchUpInside" id="cVB-z8-ZM5"/>
-                                    <action selector="saveSelection:" destination="cXc-fr-Sgx" eventType="touchUpInside" id="pry-Hp-Iyj"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0/3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XuL-w4-vQg">
                                 <rect key="frame" x="148" y="125" width="78" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
@@ -159,4 +149,5 @@
             <point key="canvasLocation" x="621.5" y="308.5"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.59037685394287109" green="0.26459178328514099" blue="0.26007464528083801" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

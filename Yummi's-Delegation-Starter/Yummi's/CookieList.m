@@ -60,6 +60,7 @@
     cookies = @[firstCookie, secondCookie, thirdCookie, fourthCookie, fifthCookie, sixthCookie, seventhCookie, eighthCookie, ninthCookie, tenthCookie, eleventhCookie, twelvthCookie];
     
     selectedCookies = [[NSMutableArray alloc] initWithCapacity:20];
+
 }
 
 #pragma mark - Table view data source
@@ -118,9 +119,6 @@
     
     [self.navigationController popViewControllerAnimated:YES];
     
-}
-
-- (IBAction)clearSelection:(id)sender {
 }
 
 @end

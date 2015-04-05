@@ -124,6 +124,4 @@
     
 }
 
-- (IBAction)clearSelection:(id)sender {
-}
 @end
