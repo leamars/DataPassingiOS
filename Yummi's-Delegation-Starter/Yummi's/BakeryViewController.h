@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "CookieList.h"
 
-@interface BakeryViewController : UIViewController <CookieListDelegate>
+@interface BakeryViewController : UIViewController 
 
 @property (weak, nonatomic) IBOutlet UILabel *first;
 @property (weak, nonatomic) IBOutlet UILabel *second;

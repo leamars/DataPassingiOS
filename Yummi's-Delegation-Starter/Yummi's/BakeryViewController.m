@@ -46,24 +46,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
-    CookieList *cookieListController = [segue destinationViewController];
-    cookieListController.delegate = self;
-    cookieListController.todaySelections = self.todaysCookies;
-    cookieListController.dayNum = days;
-    
-    NSLog(@"Segue-ying");
-}
-
-- (void) selectedCookies:(NSArray *)selectedCookies {
-    
-    self.todaysCookies = [NSMutableArray arrayWithArray:selectedCookies];
-    
-    self.first.text = ((Cookie *)self.todaysCookies[0]).name;
-    self.second.text = ((Cookie *)self.todaysCookies[1]).name;
-    self.third.text = ((Cookie *)self.todaysCookies[2]).name;
-}
 
 
 @end

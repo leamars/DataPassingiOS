@@ -26,7 +26,5 @@
 @property (nonatomic) int dayNum;
 @property (weak, nonatomic) IBOutlet UILabel *dayNumLabel;
 
-- (IBAction)saveSelection:(id)sender;
-- (IBAction)clearSelection:(id)sender;
 
 @end

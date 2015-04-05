@@ -19,6 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self configureInfo];
+    
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+- (void) configureInfo {
     
     Cookie *firstCookie = [Cookie new];
     Cookie *secondCookie = [Cookie new];
@@ -33,30 +43,24 @@
     Cookie *eleventhCookie = [Cookie new];
     Cookie *twelvthCookie = [Cookie new];
     
-    firstCookie.name = @"Mint Cookie";
-    secondCookie.name = @"Chocolate Cookie";
-    thirdCookie.name = @"Boston Creme Cookie";
-    fourthCookie.name = @"Neopolitan";
-    fifthCookie.name = @"Oatmeal Raisin";
-    sixthCookie.name = @"White Chocolate Macademia Nut";
-    seventhCookie.name = @"Stupid Cookie";
-    eighthCookie.name = @"Smiley Cookie";
-    ninthCookie.name = @"Another Cookie";
-    tenthCookie.name = @"Joe Cookie";
-    eleventhCookie.name = @"Glasses";
-    twelvthCookie.name = @"Headphones";
+    firstCookie.name = @"Chocolate Chip";
+    secondCookie.name = @"Fudge Cookie";
+    thirdCookie.name = @"Snickerdoodle";
+    fourthCookie.name = @"Ooh-La-La Oatmeal";
+    fifthCookie.name = @"Sensational Sugar";
+    sixthCookie.name = @"Peanut Butter Pizazz";
+    seventhCookie.name = @"Toffee Temptation";
+    eighthCookie.name = @"Caramel Pecan";
+    ninthCookie.name = @"Pistachio Perfection";
+    tenthCookie.name = @"Macademia Nut White Chocolate Chip";
+    eleventhCookie.name = @"Cinnamon Rolled";
+    twelvthCookie.name = @"Hunka Chunka";
     
     cookies = @[firstCookie, secondCookie, thirdCookie, fourthCookie, fifthCookie, sixthCookie, seventhCookie, eighthCookie, ninthCookie, tenthCookie, eleventhCookie, twelvthCookie];
     
     selectedCookies = [[NSMutableArray alloc] initWithCapacity:20];
     
-    self.dayNumLabel.text = [NSString stringWithFormat:@"Day %i", self.dayNum];
-    
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.dayNumLabel.text = [NSString stringWithFormat:@"Day %i", self.dayNum-1];
 }
 
 #pragma mark - Table view data source
@@ -118,7 +122,13 @@
     
 }
 
-- (IBAction)clearSelection:(id)sender {
+- (IBAction)cancel:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
 }
 
 @end

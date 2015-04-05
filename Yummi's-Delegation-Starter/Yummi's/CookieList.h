@@ -9,17 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "Cookie.h"
 
-@protocol CookieListDelegate <NSObject>
-
-@required
-
-- (void)selectedCookies:(NSArray *) selectedCookies;
-
-@end
 
 @interface CookieList : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
-@property (nonatomic, weak) id<CookieListDelegate> delegate;
 @property (weak, nonatomic) IBOutlet UITableView *cookieListTableView;
 @property (weak, nonatomic) IBOutlet UILabel *numOfSelected;
 @property (nonatomic, strong) NSArray *todaySelections;

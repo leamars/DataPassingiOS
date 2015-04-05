@@ -36,7 +36,7 @@
     }
     else {
         days = days + 1;
-        self.dayCount.text = [NSString stringWithFormat:@"Day %i", days];
+        self.dayCount.text = [NSString stringWithFormat:@"Day %i", days-1];
     }
     
 }
@@ -58,10 +58,15 @@
         CookieList *cookieViewConroller = segue.sourceViewController;
 
         self.todaysCookies = cookieViewConroller.selectedCookies;
-        self.first.text = ((Cookie *)self.todaysCookies[0]).name;
-        self.second.text = ((Cookie *)self.todaysCookies[1]).name;
-        self.third.text = ((Cookie *)self.todaysCookies[2]).name;
+        self.first.text = [NSString stringWithFormat:@"1. %@", ((Cookie *)self.todaysCookies[0]).name];
+        self.second.text = [NSString stringWithFormat:@"2. %@", ((Cookie *)self.todaysCookies[1]).name];
+        self.third.text = [NSString stringWithFormat:@"3. %@", ((Cookie *)self.todaysCookies[2]).name];
     }
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
 }
 
 
