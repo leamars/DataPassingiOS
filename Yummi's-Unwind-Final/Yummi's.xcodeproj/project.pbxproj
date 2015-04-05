@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		671DAA641AD08FB600EB5FE2 /* CookieList.m in Sources */ = {isa = PBXBuildFile; fileRef = 671DAA631AD08FB600EB5FE2 /* CookieList.m */; };
+		671DAA671AD0920F00EB5FE2 /* Cookie.m in Sources */ = {isa = PBXBuildFile; fileRef = 671DAA661AD0920F00EB5FE2 /* Cookie.m */; };
+		678EECCD1AD08BDE0056E062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 678EECCC1AD08BDE0056E062 /* main.m */; };
+		678EECD01AD08BDE0056E062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 678EECCF1AD08BDE0056E062 /* AppDelegate.m */; };
+		678EECD31AD08BDE0056E062 /* BakeryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678EECD21AD08BDE0056E062 /* BakeryViewController.m */; };
+		678EECD61AD08BDE0056E062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678EECD41AD08BDE0056E062 /* Main.storyboard */; };
+		678EECD81AD08BDE0056E062 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678EECD71AD08BDE0056E062 /* Images.xcassets */; };
+		678EECDB1AD08BDE0056E062 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 678EECD91AD08BDE0056E062 /* LaunchScreen.xib */; };
+		678EECE71AD08BDE0056E062 /* Yummi_sTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 678EECE61AD08BDE0056E062 /* Yummi_sTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		678EECE11AD08BDE0056E062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 678EECBF1AD08BDE0056E062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678EECC61AD08BDE0056E062;
+			remoteInfo = "Yummi's";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		671DAA621AD08FB600EB5FE2 /* CookieList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookieList.h; sourceTree = "<group>"; };
+		671DAA631AD08FB600EB5FE2 /* CookieList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookieList.m; sourceTree = "<group>"; };
+		671DAA651AD0920F00EB5FE2 /* Cookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cookie.h; sourceTree = "<group>"; };
+		671DAA661AD0920F00EB5FE2 /* Cookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cookie.m; sourceTree = "<group>"; };
+		678EECC71AD08BDE0056E062 /* Yummi's.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yummi's.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		678EECCB1AD08BDE0056E062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678EECCC1AD08BDE0056E062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		678EECCE1AD08BDE0056E062 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		678EECCF1AD08BDE0056E062 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		678EECD11AD08BDE0056E062 /* BakeryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BakeryViewController.h; sourceTree = "<group>"; };
+		678EECD21AD08BDE0056E062 /* BakeryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BakeryViewController.m; sourceTree = "<group>"; };
+		678EECD51AD08BDE0056E062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		678EECD71AD08BDE0056E062 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		678EECDA1AD08BDE0056E062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		678EECE01AD08BDE0056E062 /* Yummi'sTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yummi'sTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		678EECE51AD08BDE0056E062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678EECE61AD08BDE0056E062 /* Yummi_sTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yummi_sTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		678EECC41AD08BDE0056E062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678EECDD1AD08BDE0056E062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		678EECBE1AD08BDE0056E062 = {
+			isa = PBXGroup;
+			children = (
+				671DAA651AD0920F00EB5FE2 /* Cookie.h */,
+				671DAA661AD0920F00EB5FE2 /* Cookie.m */,
+				678EECC91AD08BDE0056E062 /* Yummi's */,
+				678EECE31AD08BDE0056E062 /* Yummi'sTests */,
+				678EECC81AD08BDE0056E062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		678EECC81AD08BDE0056E062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				678EECC71AD08BDE0056E062 /* Yummi's.app */,
+				678EECE01AD08BDE0056E062 /* Yummi'sTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		678EECC91AD08BDE0056E062 /* Yummi's */ = {
+			isa = PBXGroup;
+			children = (
+				671DAA621AD08FB600EB5FE2 /* CookieList.h */,
+				671DAA631AD08FB600EB5FE2 /* CookieList.m */,
+				678EECCE1AD08BDE0056E062 /* AppDelegate.h */,
+				678EECCF1AD08BDE0056E062 /* AppDelegate.m */,
+				678EECD11AD08BDE0056E062 /* BakeryViewController.h */,
+				678EECD21AD08BDE0056E062 /* BakeryViewController.m */,
+				678EECD41AD08BDE0056E062 /* Main.storyboard */,
+				678EECD71AD08BDE0056E062 /* Images.xcassets */,
+				678EECD91AD08BDE0056E062 /* LaunchScreen.xib */,
+				678EECCA1AD08BDE0056E062 /* Supporting Files */,
+			);
+			path = "Yummi's";
+			sourceTree = "<group>";
+		};
+		678EECCA1AD08BDE0056E062 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				678EECCB1AD08BDE0056E062 /* Info.plist */,
+				678EECCC1AD08BDE0056E062 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		678EECE31AD08BDE0056E062 /* Yummi'sTests */ = {
+			isa = PBXGroup;
+			children = (
+				678EECE61AD08BDE0056E062 /* Yummi_sTests.m */,
+				678EECE41AD08BDE0056E062 /* Supporting Files */,
+			);
+			path = "Yummi'sTests";
+			sourceTree = "<group>";
+		};
+		678EECE41AD08BDE0056E062 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				678EECE51AD08BDE0056E062 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		678EECC61AD08BDE0056E062 /* Yummi's */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678EECEA1AD08BDE0056E062 /* Build configuration list for PBXNativeTarget "Yummi's" */;
+			buildPhases = (
+				678EECC31AD08BDE0056E062 /* Sources */,
+				678EECC41AD08BDE0056E062 /* Frameworks */,
+				678EECC51AD08BDE0056E062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yummi's";
+			productName = "Yummi's";
+			productReference = 678EECC71AD08BDE0056E062 /* Yummi's.app */;
+			productType = "com.apple.product-type.application";
+		};
+		678EECDF1AD08BDE0056E062 /* Yummi'sTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678EECED1AD08BDE0056E062 /* Build configuration list for PBXNativeTarget "Yummi'sTests" */;
+			buildPhases = (
+				678EECDC1AD08BDE0056E062 /* Sources */,
+				678EECDD1AD08BDE0056E062 /* Frameworks */,
+				678EECDE1AD08BDE0056E062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				678EECE21AD08BDE0056E062 /* PBXTargetDependency */,
+			);
+			name = "Yummi'sTests";
+			productName = "Yummi'sTests";
+			productReference = 678EECE01AD08BDE0056E062 /* Yummi'sTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		678EECBF1AD08BDE0056E062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Hellosunschein;
+				TargetAttributes = {
+					678EECC61AD08BDE0056E062 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					678EECDF1AD08BDE0056E062 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 678EECC61AD08BDE0056E062;
+					};
+				};
+			};
+			buildConfigurationList = 678EECC21AD08BDE0056E062 /* Build configuration list for PBXProject "Yummi's" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678EECBE1AD08BDE0056E062;
+			productRefGroup = 678EECC81AD08BDE0056E062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678EECC61AD08BDE0056E062 /* Yummi's */,
+				678EECDF1AD08BDE0056E062 /* Yummi'sTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		678EECC51AD08BDE0056E062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678EECD61AD08BDE0056E062 /* Main.storyboard in Resources */,
+				678EECDB1AD08BDE0056E062 /* LaunchScreen.xib in Resources */,
+				678EECD81AD08BDE0056E062 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678EECDE1AD08BDE0056E062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		678EECC31AD08BDE0056E062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678EECD31AD08BDE0056E062 /* BakeryViewController.m in Sources */,
+				678EECD01AD08BDE0056E062 /* AppDelegate.m in Sources */,
+				678EECCD1AD08BDE0056E062 /* main.m in Sources */,
+				671DAA641AD08FB600EB5FE2 /* CookieList.m in Sources */,
+				671DAA671AD0920F00EB5FE2 /* Cookie.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678EECDC1AD08BDE0056E062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678EECE71AD08BDE0056E062 /* Yummi_sTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		678EECE21AD08BDE0056E062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 678EECC61AD08BDE0056E062 /* Yummi's */;
+			targetProxy = 678EECE11AD08BDE0056E062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		678EECD41AD08BDE0056E062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678EECD51AD08BDE0056E062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		678EECD91AD08BDE0056E062 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678EECDA1AD08BDE0056E062 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		678EECE81AD08BDE0056E062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		678EECE91AD08BDE0056E062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		678EECEB1AD08BDE0056E062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yummi's/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		678EECEC1AD08BDE0056E062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yummi's/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		678EECEE1AD08BDE0056E062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yummi'sTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yummi's.app/Yummi's";
+			};
+			name = Debug;
+		};
+		678EECEF1AD08BDE0056E062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yummi'sTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yummi's.app/Yummi's";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678EECC21AD08BDE0056E062 /* Build configuration list for PBXProject "Yummi's" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678EECE81AD08BDE0056E062 /* Debug */,
+				678EECE91AD08BDE0056E062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678EECEA1AD08BDE0056E062 /* Build configuration list for PBXNativeTarget "Yummi's" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678EECEB1AD08BDE0056E062 /* Debug */,
+				678EECEC1AD08BDE0056E062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678EECED1AD08BDE0056E062 /* Build configuration list for PBXNativeTarget "Yummi'sTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678EECEE1AD08BDE0056E062 /* Debug */,
+				678EECEF1AD08BDE0056E062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 678EECBF1AD08BDE0056E062 /* Project object */;
+}
