@@ -52,7 +52,7 @@
     seventhCookie.name = @"Toffee Temptation";
     eighthCookie.name = @"Caramel Pecan";
     ninthCookie.name = @"Pistachio Perfection";
-    tenthCookie.name = @"Macademia Nut White Chocolate Chip";
+    tenthCookie.name = @"Macademia Nut";
     eleventhCookie.name = @"Cinnamon Rolled";
     twelvthCookie.name = @"Hunka Chunka";
     
